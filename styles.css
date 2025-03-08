@@ -123,6 +123,16 @@ body {
         padding: 20px;
     }
 }
+@media (max-width: 576px) {
+    .text-center {
+        display: flex;
+        justify-content: center;
+    }
+    .mobile-mockup {
+        max-width: 100%;
+    }
+}
+
 
 /* explore courses */
 .explore-section {
