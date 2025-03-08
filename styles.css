@@ -37,6 +37,16 @@ body {
     .hero-text {
         max-width: 100%;
     }
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; /* Adds vertical space between buttons */
+        align-items: center; /* Center aligns the buttons */
+    }
+    .hero-buttons .btn {
+        margin-right: 0; /* Remove horizontal margin */
+        width: 80%; /* Optional: Makes buttons wider for better mobile UX */
+    }
 }
 
 /* Feature section */
