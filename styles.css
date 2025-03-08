@@ -476,6 +476,7 @@ body {
 .footer {
     background: #f8f9fa;
     padding: 40px 0;
+    text-align: left;
 }
 
 .footer h6 {
@@ -504,7 +505,45 @@ body {
     margin-right: 8px;
 }
 
+/* Center alignment on smaller screens */
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .col-md-4,
+    .footer .col-md-2 {
+        margin-bottom: 20px;
+    }
+
+    .footer .d-flex {
+        justify-content: center;
+    }
+
+    .footer .d-flex a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer .store-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+/* Bottom Section */
 .footer hr {
     margin: 20px 0;
     border-color: #ddd;
 }
+
+.footer .row.text-center {
+    flex-direction: column;
+}
+
+.footer .row.text-center .col-md-6 {
+    margin-bottom: 10px;
+}
+
