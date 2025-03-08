@@ -118,6 +118,11 @@ body {
     max-width: 80%;
     height: auto;
 }
+@media (max-width: 576px) {
+    .how-it-works-section {
+        padding: 20px;
+    }
+}
 
 /* explore courses */
 .explore-section {
