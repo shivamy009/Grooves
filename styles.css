@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0px;
     padding: 0px;
-    width: 109%;
+    overflow-x: hidden;
+    /* width: 109%; */
 }
 .hero-Container {
     display: flex;
@@ -27,7 +28,7 @@ body {
     margin-right: 10px;
 }
 .hero-image img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
 @media (max-width: 992px) {
@@ -330,7 +331,7 @@ body {
 
 }
 .testi-img img{
-    max-width: 150px;
+    max-width: 135px;
     height: auto;
 }
 
