@@ -426,7 +426,7 @@ body {
 
 /* tryduplay */
 
-/* Full-width section with background */
+ 
 .eduplay-section {
     position: relative;
     background-image: url('https://s3-alpha-sig.figma.com/img/eeff/9d7e/a58452456f73ee3063d4057670cc7135?Expires=1742169600&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=TwyYUaRCHxc9gS6iHfWIiro1YVV9cz3jr92S0QR--ELe4EUPJi7RDJBy1swBwRmU7V18YwIXcN9YEzIdAyl5JR38xNtj5yZfopHckG6yWDjFTTNW7xTIKkiASjEGdvHUCIO4uW3wt45LNC6LvCjs2LuOAuwmxpBHJpPOQJO53qD45SKJ9cfqZJTkN73YpwD8owYX6IWK0nmZftYskC1JvsK92MfJCm9zzArOQ6UNQ7UDWAz0ovYaF7hSULsgv8VnLNayj93WdAmqkWGznTflVPSXlLgxZfNDaqlXf4SzWgfJq6lZQjDDFJBD9dymgkZcJi-HpVxrwPbzOqoK~uoalA__');
@@ -472,7 +472,7 @@ body {
 }
 
 /* footer */
-/* Footer Styling */
+ 
 .footer {
     background: #f8f9fa;
     padding: 40px 0;
