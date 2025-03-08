@@ -212,6 +212,13 @@ body {
     border: none;
 }
 
+@media (max-width: 768px) {
+    .course-card {
+        margin-bottom: 20px; /* Adds space between stacked cards */
+    }
+}
+
+
 /* you might know us */
 .know-us{
     background-color: #f8f9fa; /* Light background */
